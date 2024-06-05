@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.top-bar {
+    background-color: #ff6a00;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .buttons button {
+    background-color: #ff6a00;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header .hero {
+    background-image: url(hero-image.jpg) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.header .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.header .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header .hero .hero-buttons button {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #ff6a00 0%, #ff9275 100%);
+    color: white;
+    padding: 50px 20px;
+}
+
+.services .service {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about button {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.our-services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.our-services .service-item {
+    display: inline-block;
+    margin: 20px;
+}
+
+.our-services .service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.our-services .service-item h3 {
+    margin-top: 10px;
+}
