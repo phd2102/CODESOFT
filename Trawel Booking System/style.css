@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1b1f6b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-section {
+    background-image: url('background.jpg');
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.search-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab.active {
+    border-bottom: 2px solid #f39c12;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group input[type="radio"] {
+    width: auto;
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    background-color: #f39c12;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+.airline-logos {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+}
+
+.airline-logos .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.airline-logos .logos img {
+    max-width: 100px;
+}
